@@ -1,0 +1,8 @@
+# Dependencias
+node_modules/
+
+# Configuración del editor
+.vscode/
+
+# Archivos innecesarios
+*.log

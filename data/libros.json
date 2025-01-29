@@ -1,0 +1,94 @@
+[
+  {
+    "id": 1,
+    "titulo": "La vuelta al mundo en 80 días",
+    "autores": "Julio Verne",
+    "genero": "Aventura",
+    "año_publicacion": 1872,
+    "idioma": "Francés",
+    "precio": 15,
+    "disponibilidad": "En stock",
+    "formato": "Tapa dura",
+    "valoracion": 4.8
+  },
+  {
+    "id": 2,
+    "titulo": "La historia del Loco",
+    "autores": "John Katzenbach",
+    "genero": "Thriller psicológico",
+    "año_publicacion": 2004,
+    "idioma": "Inglés",
+    "precio": 18.5,
+    "disponibilidad": "En stock",
+    "formato": "Tapa blanda",
+    "valoracion": 4.5
+  },
+  {
+    "id": 3,
+    "titulo": "El asesinato en el Orient Express",
+    "autores": "Agatha Christie",
+    "genero": "Misterio",
+    "año_publicacion": 1934,
+    "idioma": "Inglés",
+    "precio": 12,
+    "disponibilidad": "Disponible bajo pedido",
+    "formato": "eBook",
+    "valoracion": 4.7
+  },
+  {
+    "id": 4,
+    "titulo": "Cien años de soledad",
+    "autores": "Gabriel García Márquez",
+    "genero": "Ficción, Realismo mágico",
+    "año_publicacion": 1967,
+    "idioma": "Español",
+    "precio": 20,
+    "disponibilidad": "Agotado",
+    "formato": "Tapa blanda",
+    "valoracion": 4.9
+  },
+  {
+    "id": 5,
+    "titulo": "El psicoanalista",
+    "autores": "John Katzenbach",
+    "genero": "Ficción, Suspenso",
+    "año_publicacion": 2002,
+    "idioma": "Español",
+    "precio": 12,
+    "disponibilidad": "En stock",
+    "formato": "Tapa dura",
+    "valoracion": 4.8
+  },
+  {
+    "titulo": "El resplandor",
+    "autores": "Stephen King",
+    "genero": "Ficción, Terror",
+    "año_publicacion": 1977,
+    "idioma": "Español",
+    "precio": 16,
+    "disponibilidad": "Disponible bajo pedido",
+    "formato": "Tapa dura",
+    "valoracion": 4.8,
+    "id": 6
+  },
+  {
+    "titulo": "En agosto nos vemos",
+    "autores": "Gabriel García",
+    "genero": "Ficción, Colombiana",
+    "idioma": "Español",
+    "precio": 20,
+    "disponibilidad": "Disponible bajo pedido",
+    "valoracion": 4.8,
+    "id": 8
+  },
+  {
+    "titulo": "Cinco semanas en globo",
+    "autores": "Julio Verne",
+    "genero": "Literatura y Ficción",
+    "idioma": "Español",
+    "precio": 10,
+    "disponibilidad": "En stock",
+    "valoracion": 5,
+    "id": 9
+  }
+]

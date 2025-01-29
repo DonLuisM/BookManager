@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gestión de Libros</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <main class="container">
+        <!-- Para cargar y actualizar el listado de libros -->
+        <h1>Revisa la Lista de Libros Disponibles</h1>
+        <div class="buttons">
+            <button id="btn-abrir-modal" class="diseño_btn">Crear Info Libro</button>
+            <button id="refresh-btn" class="diseño_btn">Actualizar biblioteca</button>
+        </div>
+
+        <dialog id="modal">
+            <h2 id="titulo_modal">Crear Información Libro</h2>
+            <form action="http://localhost:3000/libros" id="form-libro">
+                <label for="titulo">Título:</label>
+                <input type="text" id="titulo" name="titulo" required>
+
+                <label for="autores">Autores:</label>
+                <input type="text" id="autores" name="autores" required>
+
+                <label for="genero">Género:</label>
+                <input type="text" id="genero" name="genero" required>
+
+                <label for="idioma">Idioma:</label>
+                <select name="idioma" id="idioma" required>
+                    <option value="Español">Español</option>
+                    <option value="Inglés">Inglés</option>
+                    <option value="Francés">Francés</option>
+                    <option value="Italiano">Italiano</option>
+                    <option value="Portugués">Portugués</option>
+                </select>
+
+                <label for="precio">Precio:</label>
+                <input type="number" id="precio" name="precio" step="0.01" required>
+
+                <label for="disponibilidad">Disponibilidad:</label>
+                <select name="disponibilidad" id="disponibilidad" required>
+                    <option value="En stock">En stock</option>
+                    <option value="Disponible bajo pedido">Disponible bajo pedido</option>
+                    <option value="Agotado">No disponible</option>
+                </select>
+
+                <label for="valoracion" required>Valoración (0-5)</label>
+                <input type="number" id="valoracion" name="valoracion" min="0" max="5" step="0.1" required>
+            </form>
+            <div class="button_container">
+                <button id="close-btn">Cerrar</button>
+                <button id="create-btn">Crear</button>
+            </div>
+        </dialog>
+
+        <table id="tabla_libros">
+            <thead>
+                <tr>
+                    <th>ID</th>
+                    <th>Título</th>
+                    <th>Autor(es)</th>
+                    <th>Género</th>
+                    <th>Idioma</th>
+                    <th>Precio</th>
+                    <th>Disponibilidad</th>
+                    <th>Valoración</th>
+                    <th>Editar/Eliminar Datos</th>
+                </tr>
+            </thead>
+            <tbody>
+                <!-- Los libros se renderizan aquí -->
+            </tbody>
+        </table>
+    </main>
+    <script src="main.js"></script>
+</body>
+
+</html>
